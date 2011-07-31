@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>Create_Comm_Coll_Item</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Create_Comm_Coll_Item</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/jspui/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//a[contains(@href, '/jspui/community-list')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Issue Date</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Author</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Subject</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=My DSpace</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>tlogin_email</td>
+	<td>admin@dspace.org</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>tlogin_password</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>login_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//a[contains(@href, '/jspui/community')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='submit' and @value='Create Top-Level Community...']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name</td>
+	<td>Top Level Community</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>short_description</td>
+	<td>short description</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>introductory_text</td>
+	<td>Introductory text in &lt;b&gt;html&lt;/b&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>copyright_text</td>
+	<td>Copyright text of community</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>side_bar_text</td>
+	<td>Side bar &lt;b&gt;html&lt;/b&gt; text</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Create collection']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>workflow1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>workflow2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>workflow3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>admins</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>default.item</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>tname</td>
+	<td>Collection 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>short_description</td>
+	<td>Short description of collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>introductory_text</td>
+	<td>Collection introduction in &lt;b&gt;html&lt;/b&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>copyright_text</td>
+	<td>Copyright text</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>side_bar_text</td>
+	<td>Side bar &lt;b&gt;html&lt;/b&gt; text</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>license</td>
+	<td>License of collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>provenance_description</td>
+	<td>Provenance text</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Select Groups...']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>group_popup</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=group_popup</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Close']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Select Groups...']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>group_popup</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=group_popup</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Close']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Select Groups...']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>group_popup</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=group_popup</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Close']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Select Groups...']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>group_popup</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=group_popup</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Close']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Select Groups...']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>group_popup</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=group_popup</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Close']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>dctype_0</td>
+	<td>label=dc.contributor.author</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>value_0</td>
+	<td>default author</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>lang_0</td>
+	<td>en</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>dctype_1</td>
+	<td>label=dc.description.abstract</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>value_1</td>
+	<td>default abstract</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>lang_1</td>
+	<td>en</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='submit' and @value='Update']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=My DSpace</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_new</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>tcollection</td>
+	<td>label=Collection 1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>multiple_titles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>published_before</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>multiple_files</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_title</td>
+	<td>title</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_title_alternative</td>
+	<td>other title</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_dc_title_alternative_add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_title_alternative_2</td>
+	<td>another title</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>dc_date_issued_month</td>
+	<td>label=January</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_date_issued_day</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_date_issued_year</td>
+	<td>1980</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_publisher</td>
+	<td>Publisher</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_identifier_citation</td>
+	<td>Citation</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_relation_ispartofseries_series_1</td>
+	<td>series</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_relation_ispartofseries_number_1</td>
+	<td>#</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_identifier_value</td>
+	<td>issn</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_dc_identifier_add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>dc_identifier_qualifier_2</td>
+	<td>label=URI</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_identifier_value_2</td>
+	<td>http://www.google.es</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>dc_identifier_qualifier</td>
+	<td>label=ISMN</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_identifier_value</td>
+	<td>ismn</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>dc_type</td>
+	<td>label=Book</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>dc_language_iso</td>
+	<td>label=English</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_subject_1</td>
+	<td>keyword1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_subject</td>
+	<td>keyword2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_dc_subject_add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_subject_3</td>
+	<td>keyword3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_description_sponsorship_id</td>
+	<td>sponsors</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>dc_description_id</td>
+	<td>description</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>tfile</td>
+	<td>/home/pvillega/Desktop/test.txt</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>tdescription</td>
+	<td>description</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_upload</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_grant</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Go to My DSpace</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_claim</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_start</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_approve</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Return to My DSpace</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_claim</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_start</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_approve</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Return to My DSpace</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_claim</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_start</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_approve</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Return to My DSpace</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_own</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit_simple</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='submit_simple' and @value='View Statistics']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[contains(@href, '/jspui/community-list')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Collection 1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Issue Date</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Author</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=default author</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Subject</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=keyword2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=title</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

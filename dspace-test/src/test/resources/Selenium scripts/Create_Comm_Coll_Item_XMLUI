@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>Create_Comm_Coll_Item_XMLUI</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Create_Comm_Coll_Item_XMLUI</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/xmlui</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Communities &amp; Collections</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=By Issue Date</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Authors</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Titles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Subjects</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='aspect_artifactbrowser_Navigation_list_account']/ul/li[1]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_eperson_PasswordLogin_field_login_email</td>
+	<td>admin@dspace.org</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_eperson_PasswordLogin_field_login_password</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_eperson_PasswordLogin_field_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Communities &amp; Collections</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create Community</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_community_CreateCommunityForm_field_name</td>
+	<td>XMLUI Community</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_community_CreateCommunityForm_field_short_description</td>
+	<td>Short description</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_community_CreateCommunityForm_field_introductory_text</td>
+	<td>Introductory text &lt;b&gt;html&lt;/b&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_community_CreateCommunityForm_field_copyright_text</td>
+	<td>Copyright text &lt;b&gt;html&lt;/b&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_community_CreateCommunityForm_field_side_bar_text</td>
+	<td>News &lt;b&gt;html&lt;/b&gt;</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_community_CreateCommunityForm_field_submit_save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_community_EditCommunityMetadataForm_field_submit_save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=XMLUI Community</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create Collection</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_collection_CreateCollectionForm_field_name</td>
+	<td>XMLU Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_collection_CreateCollectionForm_field_short_description</td>
+	<td>short description</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_collection_CreateCollectionForm_field_introductory_text</td>
+	<td>Introductory text &lt;b&gt;html&lt;/b&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_collection_CreateCollectionForm_field_copyright_text</td>
+	<td>Copyright text &lt;b&gt;html&lt;/b&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_collection_CreateCollectionForm_field_side_bar_text</td>
+	<td>News &lt;b&gt;html&lt;/b&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_collection_CreateCollectionForm_field_license</td>
+	<td>License of collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_administrative_collection_CreateCollectionForm_field_provenance_description</td>
+	<td>Provenance</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_collection_CreateCollectionForm_field_submit_save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_collection_AssignCollectionRoles_field_submit_create_admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_search_epeople</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_add_eperson_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_collection_AssignCollectionRoles_field_submit_create_wf_step1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_search_epeople</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_add_eperson_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_collection_AssignCollectionRoles_field_submit_create_wf_step2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_search_epeople</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_add_eperson_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_collection_AssignCollectionRoles_field_submit_create_wf_step3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_search_epeople</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_add_eperson_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_collection_AssignCollectionRoles_field_submit_create_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_search_epeople</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_add_eperson_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_group_EditGroupForm_field_submit_save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_administrative_collection_AssignCollectionRoles_field_submit_return</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Submissions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=start a new submission</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aspect_submission_submit_SelectCollectionStep_field_handle</td>
+	<td>label=XMLU Collection</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_submission_submit_SelectCollectionStep_field_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>multiple_titles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>published_before</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_submission_StepTransformer_field_submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_contributor_author_last</td>
+	<td>author</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_contributor_author_first</td>
+	<td>one</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_title</td>
+	<td>Title</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit_dc_title_alternative_add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_title_alternative</td>
+	<td>other title</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit_dc_title_alternative_add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_title_alternative</td>
+	<td>another title</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_date_issued_year</td>
+	<td>2009</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aspect_submission_StepTransformer_field_dc_date_issued_month</td>
+	<td>label=January</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_date_issued_day</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_publisher</td>
+	<td>Publisher</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_identifier_citation</td>
+	<td>Citation</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_relation_ispartofseries_series</td>
+	<td>series</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_relation_ispartofseries_number</td>
+	<td>#</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_identifier_value</td>
+	<td>issn</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit_dc_identifier_add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aspect_submission_StepTransformer_field_dc_identifier_qualifier</td>
+	<td>label=URI</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_identifier_value</td>
+	<td>http://www.google.es</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit_dc_identifier_add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>aspect_submission_StepTransformer_field_dc_type</td>
+	<td>label=Book</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aspect_submission_StepTransformer_field_dc_language_iso</td>
+	<td>label=English</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_submission_StepTransformer_field_submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_subject</td>
+	<td>keyword4</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit_dc_subject_add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_subject</td>
+	<td>keyword1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit_dc_subject_add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_description_abstract</td>
+	<td>Abstract text</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_description_sponsorship</td>
+	<td>Sponsor</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_dc_description</td>
+	<td>Description</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_submission_StepTransformer_field_submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_file</td>
+	<td>/home/pvillega/Desktop/test.txt</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aspect_submission_StepTransformer_field_description</td>
+	<td>description</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_submission_StepTransformer_field_submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_submission_StepTransformer_field_submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>decision</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>aspect_submission_StepTransformer_field_submit_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Go to the Submissions page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>aspect_submission_workflow_PerformTaskStep_field_submit_take_task</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>aspect_submission_workflow_PerformTaskStep_field_submit_approve</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>aspect_submission_workflow_PerformTaskStep_field_submit_take_task</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>aspect_submission_workflow_PerformTaskStep_field_submit_approve</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>aspect_submission_workflow_PerformTaskStep_field_submit_take_task</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>aspect_submission_workflow_PerformTaskStep_field_submit_approve</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Communities &amp; Collections</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=XMLU Collection</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='aspect_artifactbrowser_CollectionViewer_div_collection-recent-submission']/ul/li/div/div[1]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='aspect_artifactbrowser_ItemViewer_div_item-view']/p[2]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=By Issue Date</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='aspect_artifactbrowser_ConfigurableBrowse_div_browse-by-dateissued-results']/ul/li[2]/div/div[1]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Authors</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=author, one</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='aspect_artifactbrowser_ConfigurableBrowse_div_browse-by-author-results']/ul/li/div/div[1]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Titles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='aspect_artifactbrowser_ConfigurableBrowse_div_browse-by-title-results']/ul/li[1]/div/div[1]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='aspect_artifactbrowser_Navigation_list_browse']/ul/li[2]/ul/li[4]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=keyword4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='aspect_artifactbrowser_ConfigurableBrowse_div_browse-by-subject-results']/ul/li/div/div[1]/a/span</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
